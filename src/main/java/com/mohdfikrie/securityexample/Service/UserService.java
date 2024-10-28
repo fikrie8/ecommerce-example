@@ -39,11 +39,11 @@ public class UserService {
     }
 
     public List<Users> getAllUsers() {
-        //RequestRespond requestRespond = new RequestRespond();
 
         List<Users> resultList = userRepo.findAll();
         return resultList;
 
+        //RequestRespond requestRespond = new RequestRespond();
         /*try {
             List<Users> resultList = userRepo.findAll();
             if(!resultList.isEmpty()) {
