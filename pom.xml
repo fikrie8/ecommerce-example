@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.mohdfikrie</groupId>
-	<artifactId>securityexample</artifactId>
+	<artifactId>springBootSkeleton</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>securityexample</name>
-	<description>Demo security project for Spring Boot</description>
+	<name>springBootSkeleton</name>
+	<description>Spring boot skeleton project with users and security features</description>
 	<url/>
 	<licenses>
 		<license/>

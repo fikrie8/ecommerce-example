@@ -13,13 +13,15 @@ public class Users{
     @Id
     private int id;
     private String username;
-    private String email;
     private String password;
-    private String city;
+    private String name;
+    private String email;
+    private String address;
     private String role;
 
     @Override
     public String toString() {
+
         return "Users{" +
                 "id=" + id +
                 ", username='" + username + '\'' +
